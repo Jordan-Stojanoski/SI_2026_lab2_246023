@@ -40,7 +40,7 @@
 - Test3: Празен наслов како аргумент.
 Минимален број на тест случаи за Every Statement критериумот е 3.
 
-8)Тест случаи според критериумот Every Statement за функцијата borrowBookEveryBranchTest
+8)Тест случаи според критериумот Every Branch за функцијата borrowBookEveryBranchTest
 
 |Branch|Test1|Test2|Test3|Test4|
 |--------|---|---|---|---|
@@ -59,10 +59,12 @@
 
 10)Тест случаи за условот if (title.isEmpty() || author.isEmpty()) во borrowBook според Multiple Condition
 |ImeNaFunkcija|Test|
+|---|---|
 | TT | throw IllegalArgumentException (се фрла исклучок) |
 | TF | throw IllegalArgumentException (се фрла исклучок) |
 | FT | throw IllegalArgumentException (се фрла исклучок) |
 | FF | valid execution (книгата успешно се додава)       |
+
 TT = title е празен и author е празен
 TF = title е празен и author не е празен
 FT = title не е празен и author е празен
@@ -71,14 +73,15 @@ FF = title не е празен и author не е празен
 
 Тест случаи за условот if (book.getTitle().equalsIgnoreCase(title) && !book.isBorrowed()) во searchBookByTitle според Multiple Condition
 |ImeNaFunkcija|Test|
+|---|---|
 | TT | книгата се додава    |
 | TF | книгата не се додава |
 | FT | книгата не се додава |
 | FF | книгата не се додава |
+
 ТТ = книгата е пронајдена и не е позајмена
 ТF = книгата е пронајдена и е позајмена
 FT = насловот не се совпаѓа и книгата не е позајмена
 FF =  насловот не се совпаѓа и книгата е позајмена
 Минимален број на тест случаи за ова функција според Multiple condition критериумот e 4.
-
 
