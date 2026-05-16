@@ -58,7 +58,7 @@
 Минимален број на тест случаи за Every Branch критериумот е 4.
 
 10)Тест случаи за условот if (title.isEmpty() || author.isEmpty()) во borrowBook според Multiple Condition
-|ImeNaFunkcija|Test|
+|borrowBook|Test|
 |---|---|
 | TT | throw IllegalArgumentException (се фрла исклучок) |
 | TF | throw IllegalArgumentException (се фрла исклучок) |
@@ -72,7 +72,7 @@ FF = title не е празен и author не е празен
 Минимален број на тест случаи за ова функција според Multiple condition критериумот e 4.
 
 Тест случаи за условот if (book.getTitle().equalsIgnoreCase(title) && !book.isBorrowed()) во searchBookByTitle според Multiple Condition
-|ImeNaFunkcija|Test|
+|searchBookByTitle|Test|
 |---|---|
 | TT | книгата се додава    |
 | TF | книгата не се додава |
